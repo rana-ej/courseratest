@@ -1,0 +1,118 @@
+body {
+  font-size: 16px;
+  color: #eaeff9;
+  background-color: #484848;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ee5921;
+  border-radius: 0; /* remove the rounded bootstrap border*/
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222; /* Adding a cool text shadow! */
+  margin-top: 0;
+  line-height: .75;
+  text-align: left;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #3186ad;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f; /* Changing the sandwich menu color. */
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both; /* Making the sandwich menu non-floating so the yellow border collapses down.*/
+  margin-top: -60px;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+#main-section {
+  width: 100%;
+  text-align: left;
+  background-color: #3d82ab;
+  height: 1000px;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+}
+
+/* END HOME PAGE */
+
+
+
+/** Medium and large devices only **/
+@media (min-width: 992px) {
+}
+
+/** Small devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    margin-bottom: 0px;
+   height: 80px;
+  }
+}
+
+/** Extra small devices only **/
+@media (max-width: 767px) {
+  .navbar-brand {
+    margin-bottom: 0px;
+  	height: 80px;
+  }
+}
+/** Super extra small devices only (e.g. iPhone 4) **/
+@media (max-width: 479px) {
+  .navbar-brand {
+    margin-bottom: 0px;
+    height: 80px;   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
